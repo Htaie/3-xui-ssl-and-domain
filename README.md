@@ -1,1 +1,1 @@
-# auto-freeipdomen-to-3xui
+# ONLY USE VDS/VPS
