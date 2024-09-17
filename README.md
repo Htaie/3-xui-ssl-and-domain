@@ -1,10 +1,12 @@
-# ONLY USE VDS/VPS
+## ONLY USE VDS/VPS
 
-# Install script
+## Install script
+```
 bash <(curl -Ls https://raw.githubusercontent.com/Htaie/3-xui-ssl-and-domen/main/3-xui-auto-ssl-and-domen.sh)
+```
 
-# Get free domen
+## Get free domen
 https://freemyip.com/main
 
-# 3-xui install guide 
+## 3-xui install guide 
 https://github.com/MHSanaei/3x-ui
