@@ -145,7 +145,6 @@ prompt_for_link() {
 
 # Function to prompt user for domain and email
 prompt_for_domain_and_email() {
-    read -p "Please enter your domain: " DOMAIN
     read -p "Please enter a valid email address for SSL registration: " EMAIL
 }
 
