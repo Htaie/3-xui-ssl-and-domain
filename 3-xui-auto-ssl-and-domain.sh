@@ -143,6 +143,12 @@ prompt_for_link() {
     echo "Extracted domain: $DOMAIN"
 }
 
+# Function to prompt user for domain and email
+prompt_for_domain_and_email() {
+    read -p "Please enter your domain: " DOMAIN
+    read -p "Please enter a valid email address for SSL registration: " EMAIL
+}
+
 # Function to update dynamic DNS
 update_dynamic_dns() {
     echo "Updating DNS record for $DOMAIN..."
@@ -162,6 +168,7 @@ check_curl
 check_sqlite3
 check_if_ssl_present
 check_certbot
+prompt_for_domain_and_email
 prompt_for_link
 update_dynamic_dns
 remove_existing_ssl_entries  
